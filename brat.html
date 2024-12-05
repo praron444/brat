@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAT Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beautifully Romanticised Accidentally Traumatized</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Kezdőlap</a></li>
+                <li><a href="#">Termékek</a></li>
+                <li><a href="#">Kapcsolat</a></li>
+                <li><a href="#">LOVESICKNESS (Hamarosan)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/BRAT_HOODY_FRONT.jpg?v=1723102160&width=1920" alt="Pulóver">
+                <h3>BRAT Kapucnis Pulóver</h3>
+                <p>BRAT Kollekció</p>
+                <p>Ár: 20000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Kapucnis Pulóver', 20000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://ih1.redbubble.net/image.5609832819.2013/ssrco,slim_fit_t_shirt,flatlay,101010:01c5ca27c6,front,wide_portrait,750x1000-bg,f8f8f8.jpg" alt="Póló">
+                <h3>BRAT Póló</h3>
+                <p>BRAT Kollekció</p>
+                <p>Ár: 10000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Póló', 10000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/ARTFUL_DODGERS_FRONT.jpg?v=1723102090&width=1920" alt="Jorts">
+                <h3>BRAT Jorts</h3>
+                <p>BRAT Kollekció</p>
+                <p>Ár: 13000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Jorts', 13000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/NEO_SHIRLEY_FRONT.jpg?v=1723101727&width=1920" alt="Szoknya">
+                <h3>BRAT Szoknya</h3>
+                <p>BRAT Kollekció</p>
+                <p>Ár: 13000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Szoknya', 13000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/GMAS_DEVIL.jpg?v=1723101339&width=1920" alt="Kötött Sapka">
+                <h3>BRAT Kötött Sapka</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 8000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Kötött Sapka', 8000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqEx2pmZhMWmR2MtRB5FqKw0GKuI0wzmZd2kOuA8H76bBp9XULc_mIdKzPKL33PLS1b0&usqp=CAU" alt="Spike Eyes">
+                <h3>Spike Eyes Szemüveg</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 8000 Ft</p>
+                <button class="order-button" onclick="orderProduct('Spike Eyes', 8000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/GOBSHITE_FRONT_BLACK.jpg?v=1723101486&width=1920" alt="BRAT Kabát">
+                <h3>BRAT Kabát</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 35000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Kabát', 35000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://www.brat-clothing.com/cdn/shop/files/100_CLUB_FRONT.jpg?v=1723101978&width=1680" alt="Bolyhos Pulóver">
+                <h3>BRAT Bolyhos Pulóver</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 15000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Bolyhos Pulóver', 15000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/412p4Uu2QkL._AC_SY780_.jpg" alt="Kötött Pulóver">
+                <h3>BRAT Kötött pulóver</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 15000 Ft</p>
+                <button class="order-button" onclick="orderProduct('BRAT Kötött Pulóver', 15000)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://d2fzf9bbqh0om5.cloudfront.net/images/1264009/webp_main/punk-rock-metallic-silver-accents-mens-genuine-leather-high-boots-new-rock-rebelsmarket.webp?1684026206" alt="Razorblade Bakancs">
+                <h3>Dragonscale Bakancs</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 45000 Ft</p>
+                <button class="order-button" onclick="orderProduct('Dragonscale Bakancs', 4500)">Rendelés</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/61lQK2V-6lL._AC_UY580_.jpg" alt="Nyaklánc">
+                <h3>Nyaklánc</h3>
+                <p>BRAT Kollekció.</p>
+                <p>Ár: 6000 Ft</p>
+                <button class="order-button" onclick="orderProduct('Nyaklánc', 6000)">Rendelés</button>
+            </div>
+            <!-- További termékek itt -->
+        </section>
+
+        <section class="order-form">
+            <h2>Rendelés leadása</h2>
+            <form id="orderForm">
+                <label for="name">Név:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="address">Szállítási cím:</label>
+                <textarea id="address" required></textarea>
+                
+                <button type="submit">Megrendelés</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BRAT CLOTHING</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
